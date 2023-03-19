@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#384249">
+    
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#D8B4B4"
+        android:src="@drawable/baseline_cloud_done_24"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#AF7F1E"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Success"
+            android:textStyle="bold"
+            android:textSize="34dp"
+            android:gravity="center"
+            android:layout_margin="11dp"
+            android:textColor="#B51836"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="11dp"
+            android:gravity="center"
+            android:text="Welcome to BMI CALCi"
+            android:textColor="#1ACF65"
+            android:textSize="16sp" />
+
+
+    <Button
+        android:id="@+id/btnOkay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="okay"
+        android:background="#0C74A6"
+        android:textColor="#fff"/>
+
+    </LinearLayout>
